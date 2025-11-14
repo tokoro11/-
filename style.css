@@ -107,7 +107,7 @@ img {
         transition: top 0.2s, transform 0.2s, opacity 0.3s;
     }
 }
-/*  */
+/* a*/
 @media screen and (max-width: 1080px) {
     .HeaderNavHamburger__line {
         position: absolute;
