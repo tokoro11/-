@@ -105,6 +105,10 @@ ul, ol {
 }
 
 .HeaderNavListItem:hover {
+    opacity: 0.5;
+}
+
+.HeaderNavListItem:hover {
   opacity: 0.5; /* ホバー時に半透明にする */
 }
 
@@ -134,6 +138,10 @@ ul, ol {
 
 .HeaderNavListItem:last-of-type {
     margin-right: 0;
+}
+
+.HeaderNavListItem__button:hover {
+  opacity: 0.5; /* ホバー時に半透明にする */
 }
 
 .HeaderNavListItem__button:visited {
@@ -604,4 +612,8 @@ hr {
 }
 input, select {
     vertical-align:middle;
+}
+
+body {
+   font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
