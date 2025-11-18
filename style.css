@@ -209,7 +209,7 @@ main {
     width: 775px;
 }
 
-.FirstView__whole-image {
+ .FirstView__whole-image { 
     display: none;
 }
 
@@ -472,7 +472,7 @@ p {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) { 
     .FirstView__bg-image {
         display: none;
     }
@@ -523,3 +523,40 @@ p {
         width: 100% !important;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .FirstViewContent__badge-image {
+        height: 102px;
+        width: 102px;
+        top: -20px;
+        right: -110px;
+    }
+}
+
+/* 追加 */
+
+body {
+    color: #333;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+@media screen and (max-width: 1080px) {
+    .Header--common {
+        position: fixed !important;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .Header {
+        background-color: #fff;
+        z-index: 10;
+    }
+}
+
+
