@@ -472,12 +472,12 @@ p {
     }
 }
 
-@media screen and (max-width: 767px) { 
+/* @media screen and (max-width: 767px) {  
     .FirstView__bg-image {
         display: none;
     }
 }
-
+*/
 @media screen and (max-width: 767px) {
     .FirstView__whole-image {
         display: block;
@@ -533,7 +533,7 @@ p {
     }
 }
 
-/* 追加 */
+/* 追加１ */
 
 body {
     color: #333;
