@@ -559,4 +559,8 @@ body {
     }
 }
 
-
+@media screen and (max-width: 767px) {
+    .FirstView__bg-image {
+        display: none;
+    }
+}
